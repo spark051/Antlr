@@ -1,0 +1,85 @@
+/*Alireza
+	Asaee
+		Antlr
+			Project
+*/
+//Friday - 2022 May 20
+
+
+func1, func2 = from math require sqrt, from math => floor;
+lib = require math;
+
+class myClass() implements student, teacher begin
+
+	private const int var1;
+	public int var2 = 10, var3 = 20;
+	int arr1[];
+	private int arr2[] = new int[850];
+	public const float arr3[] = [10.25, 10.50, 10.75];
+	double arr4[]=[];
+	private Dog var4 = Dog();
+	public Dot dot = Dot(1,2,3);
+	zz = 2.55e-15;
+	
+	Dot(char aa, string bb) begin
+		this.aa = aa;
+		this.bb = bb;
+	end
+
+	int func1(bool one, int two, float three) begin
+		one = True;
+		two = 2 < 3 ? 10 : 20;
+		three *= (one * 8) - two;
+		return two + three;
+	end
+end
+
+class Main() begin
+	int main() begin
+		for (int ii = 0; ii < 10; ii++) begin
+			while (jj % 2 == 0) begin
+				jj /= 1;
+			end
+		end
+		
+        do begin
+				xx *= 12;
+			end while (xx < 0)
+			
+		if (aa % 2 == 0) begin
+			print("aa is even");
+		end 
+		else if (yy - 1 > 12) begin
+			xx /= 12;
+		end 
+		else begin
+			bb += 12;
+		end
+	    
+	    for (int ii = 0; ii< 5 and ii> 2; ii++) begin
+	        for ii in jj begin
+	    print("test loop");
+	    end
+	end
+	
+		switch sw begin
+			case 1:
+				aa = 58 + 96;
+				break;
+			case 2:
+				bb = 13;
+				break;
+			default:
+				print("Alaki");
+				break;
+		end
+
+		try begin
+			res = num1 / num2;
+		end 
+		catch (ValueError, DivideByZero) begin
+			print("Ooooops");
+		end
+		return 0;
+	end
+end
